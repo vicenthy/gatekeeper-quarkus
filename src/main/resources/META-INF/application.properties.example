@@ -1,0 +1,12 @@
+# Configuration file
+# key = value
+github.oauth_client_id=seu_cliente_id
+github.oauth_client_secret=seu_secret
+github.oauth_host=https://github.com
+#sua uri redirect
+github.redirect_uri=http://localhost:8080/github 
+github.oauth_port=443
+github.oauth_path=/login/oauth/authorize
+github.oauth_method=POST
+
+#https://github.com/login/oauth/authorize?client_id=11499da26142c0631e64
