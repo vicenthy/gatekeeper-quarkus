@@ -12,10 +12,9 @@ public class GateKeeperTest {
     @Test
     public void testHelloEndpoint() {
         given()
-          .when().get("/code")
+          .when().get("/github/?123123123123")
           .then()
-             .statusCode(200)
-             .body(is("hello"));
+             .statusCode(422);
     }
 
 }
